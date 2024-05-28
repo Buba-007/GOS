@@ -1,0 +1,10 @@
+.card-container {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-item {
+    margin-top: 4vh;
+}
