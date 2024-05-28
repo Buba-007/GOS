@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:background="#FF8080"
+            android:backgroundTint="#FF7B7B" />
+
+        <ListView
+            android:id="@+id/listAuto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="13.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15px"
+                android:layout_weight="1"
+                android:text="@string/add" />
+
+            <Button
+                android:id="@+id/buttonReport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15px"
+                android:layout_weight="1"
+                android:text="@string/report" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="13.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonExport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15px"
+                android:layout_weight="1"
+                android:text="@string/Export" />
+
+            <Button
+                android:id="@+id/buttonImport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15px"
+                android:layout_weight="1"
+                android:text="@string/Import" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мобильный тест</string>
+    <string name="add">Добавить</string>
+    <string name="report">Отчёт</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="autoName">Название авто</string>
+    <string name="autoFLM">ФИО арендатора</string>
+    <string name="Export">Экспортировать</string>
+    <string name="Import">Импортировать</string>
+</resources>

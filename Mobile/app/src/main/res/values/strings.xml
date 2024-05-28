@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MobileTest</string>
+    <string name="add">Add</string>
+    <string name="report">Report</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="autoName">Auto name</string>
+    <string name="autoFLM">Client FLM</string>
+    <string name="Export">Export</string>
+    <string name="Import">Import</string>
+</resources>
